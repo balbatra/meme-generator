@@ -1,5 +1,6 @@
 import React from 'react'
 import defaultImage from '/src/assets/stop-634941_1280.jpg'
+import firstImage from '/src/assets/1bij.jpg'
 
 const Meme = () => {
 
@@ -8,7 +9,7 @@ const Meme = () => {
     const [meme, setMeme] = React.useState({
         topText: '',
         bottomText: '',
-        randomImage: 'http://i.imgflip.com/1bij.jpg',
+        randomImage: firstImage,
     })
 
     const [allMemeImages, setAllMemeImages] = React.useState([])
