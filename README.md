@@ -8,4 +8,4 @@ To run locally:
 npm run dev
 
 To deploy:
-npm run build In this case a dist dirctory is created which can be doployed. the application is built baed on a vite template which provides minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm run build In this case a dist dirctory is created which can be doployed. the application is built based on a vite template which provides minimal setup to get React working in Vite with HMR and some ESLint rules.
