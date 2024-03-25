@@ -1,8 +1,11 @@
-# React + Vite
+# Meme Genarator
+provide a simple travel journal based on react and Vite. The travel journal is a part of a scrimba tutorial.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To build:
+npm install
 
-Currently, two official plugins are available:
+To run locally:
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To deploy:
+npm run build In this case a dist dirctory is created which can be doployed. the application is built baed on a vite template which provides minimal setup to get React working in Vite with HMR and some ESLint rules.
